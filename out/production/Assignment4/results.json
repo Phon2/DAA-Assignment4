@@ -1,0 +1,7 @@
+{
+  "SCC": [[3, 2, 1], [0], [7], [6], [5], [4]],
+  "CondensationGraph": [{"from": 1, "to": 0, "w": 3.0}, {"from": 3, "to": 2, "w": 1.0}, {"from": 4, "to": 3, "w": 5.0}, {"from": 5, "to": 4, "w": 2.0}],
+  "TopologicalOrder": [1, 5, 0, 4, 3, 2],
+  "ShortestPaths": {"distances": {"2": 8.0, "3": 7.0, "4": 2.0, "5": 0.0}, "path": [5]},
+  "CriticalPath": {"distances": {"0": 3.0, "1": 0.0, "2": 8.0, "3": 7.0, "4": 2.0, "5": 0.0}, "length": 8.0, "path": [5, 4, 3, 2]}
+}
